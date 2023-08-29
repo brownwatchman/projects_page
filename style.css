@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #f1f0e8;
+  background-color: #eee0c9;
 }
 
 .title {
@@ -22,8 +22,9 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 2rem;
-  background: #96b6c5;
+  padding: 50px;
+  background: #eee0c9;
+  color: black;
 }
 
 nav ul {
@@ -37,7 +38,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #fff;
+  color: black;
 }
 
 nav h2 {
@@ -47,9 +48,9 @@ nav h2 {
 /* Footer styles */
 
 footer {
-  border-top: 2px solid #adc4ce;
-  background-color: #adc4ce;
-  color: white;
+  border-top: 2px solid #eee0c9;
+  background-color: #eee0c9;
+  color: black;
   text-align: center;
   padding: 1.25rem;
   margin-top: auto; /* Push footer to the bottom */
@@ -57,6 +58,7 @@ footer {
 
 a {
   font-size: 1.15rem;
+  color: black;
 }
 
 /* Adjust layout for the card containers */
@@ -97,7 +99,7 @@ a {
 }
 
 .card-front {
-  background-color: #e9e9e9;
+  background-color: #adc4ce;
   color: #333;
   display: flex;
   align-items: center;
@@ -106,7 +108,7 @@ a {
 
 /* Apply styles to the back of the card on hover */
 .card:hover .card-back {
-  background-color: #dfccfb;
+  background-color: #61677a;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,8 +117,9 @@ a {
 }
 
 .card-back {
-  background-color: #dfccfb;
-  color: #fff;
+  background-color: #96b6c5;
+  color: black;
+
   transform: rotateY(180deg);
   display: flex;
   align-items: center;
@@ -124,8 +127,9 @@ a {
 }
 
 .card:hover .card-back a {
-  color: white;
+  color: black;
   text-decoration: none;
+  font-size: 30px;
 }
 
 /* Additional styles for links */
